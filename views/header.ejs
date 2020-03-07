@@ -49,8 +49,8 @@
     </style>
     <script src="/js/jquery.js"></script>
     <script src="/js/jstz.min.js"></script>
-    <% if (config.google && config.google.maps_api_key) { %>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<% config.google.maps_api_key %>>&sensor=false"></script>
+    <% if (google.maps_api_key) { %>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<% google.maps_api_key %>>&sensor=false"></script>
     <% } %>
     <script>
         $( document ).ready(function() {

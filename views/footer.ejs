@@ -29,11 +29,11 @@
 <script type="text/javascript" src="/js/custom.js"></script>
 <script type="text/javascript" src="/js/d3.min.js"></script>
 <script type="text/javascript" src="/js/Chart.min.js"></script>
-<% if (config.google && config.google.analytics_tracker_id) { %>
+<% if (google.analytics_tracker_id) { %>
 <!-- Google Analytics -->
 <script type="text/javascript">
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', '<% config.google.analytics_tracker_id %>', '<% config.google.analytics_tracker_name %>');
+    ga('create', '<% google.analytics_tracker_id %>', '<% google.analytics_tracker_name %>');
     ga('send', 'pageview');
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
