@@ -5,11 +5,9 @@
 exports.index = function(req, res){
   const errormessages = req.flash('error');
   const infomessages = req.flash('info');
-  const config = require('../config.json');
   res.render('index', {
       title: "Home",
       user: req.user,
-      google: (config.google) ? config.google : {},
       errormessages: errormessages,
       infomessages: infomessages
   });
@@ -18,11 +16,9 @@ exports.index = function(req, res){
 exports.docs = function(req, res) {
     const errormessages = req.flash('error');
     const infomessages = req.flash('info');
-    const config = require('../config.json');
     res.render('docs/documentation', {
         title: "Docs",
         user: req.user,
-        google: (config.google) ? config.google : {},
         errormessages: errormessages,
         infomessages: infomessages
     });
@@ -31,11 +27,9 @@ exports.docs = function(req, res) {
 exports.docsnotifications = function(req, res) {
     const errormessages = req.flash('error');
     const infomessages = req.flash('info');
-    const config = require('../config.json');
     res.render('docs/notifications', {
         title: "Docs - Notifications",
         user: req.user,
-        google: (config.google) ? config.google : {},
         errormessages: errormessages,
         infomessages: infomessages
     });
@@ -44,11 +38,9 @@ exports.docsnotifications = function(req, res) {
 exports.docspersistence = function(req, res) {
     const errormessages = req.flash('error');
     const infomessages = req.flash('info');
-    const config = require('../config.json');
     res.render('docs/persistence', {
         title: "Docs - Persistence",
         user: req.user,
-        google: (config.google) ? config.google : {},
         errormessages: errormessages,
         infomessages: infomessages
     });
@@ -57,11 +49,9 @@ exports.docspersistence = function(req, res) {
 exports.docsifttt = function(req, res) {
     const errormessages = req.flash('error');
     const infomessages = req.flash('info');
-    const config = require('../config.json');
     res.render('docs/ifttt', {
         title: "Docs - IFTTT",
         user: req.user,
-        google: (config.google) ? config.google : {},
         errormessages: errormessages,
         infomessages: infomessages
     });
