@@ -23,12 +23,6 @@ $(document).ready(function() {
 
 /*************** COLORS TO BE ERASED WHEN INSTALLING THE THEME ***********/
 
-
-/*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
-var UA = 'XXX';
-/*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
-
-
 /*
 |--------------------------------------------------------------------------
 | DOCUMENT READY
