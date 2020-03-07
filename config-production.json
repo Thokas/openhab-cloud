@@ -58,5 +58,10 @@
     	"terms" : "",
         "policy": ""
     },
+    "google": {
+      "analytics_tracker_id": "",
+      "analytics_tracker_name": "",
+      "maps_api_key": "AIzaSyCh6fTzWwOMbplxEyNTZSLIn4mxEE3sraE"
+    },
     "registration_enabled": false
 }

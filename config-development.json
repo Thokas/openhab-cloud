@@ -38,6 +38,11 @@
       "iftttChannelKey" : "key",
       "iftttTestToken" : "token"
     },
+    "google": {
+        "analytics_tracker_id": "",
+        "analytics_tracker_name": "",
+        "maps_api_key": "AIzaSyCh6fTzWwOMbplxEyNTZSLIn4mxEE3sraE"
+    },
     "legal": {
     	"terms" : "",
         "policy": ""
