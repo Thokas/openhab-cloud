@@ -117,6 +117,10 @@ mongooseTypes.loadTypes(mongoose);
 
 var app = express();
 
+app.locals({
+    google: (config.google) ? config.google : {}
+});
+
 // A list of requests which are awaiting for responses from openHABs
 var requestTracker = new requesttracker();
 
